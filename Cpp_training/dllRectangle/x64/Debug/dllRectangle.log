@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  Shape.cpp
+  dllmain.cpp
+  rectangle.cpp
+D:\sample_opencv\OpenCVApp\dllRectangle\rectangle.h(14,1): warning C4275: DLL 인터페이스가 아닌 class 'Shape'이(가) DLL 인터페이스 class 'rectangle'의 기본으로 사용되었습니다.
+D:\sample_opencv\OpenCVApp\OpenCVApp\Shape.h(9,7): message : 'Shape' 선언을 참조하십시오.
+D:\sample_opencv\OpenCVApp\dllRectangle\rectangle.h(13,20): message : 'rectangle' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+     D:\sample_opencv\OpenCVApp\buildx64\Debug\dllRectangled.lib 라이브러리 및 D:\sample_opencv\OpenCVApp\buildx64\Debug\dllRectangled.exp 개체를 생성하고 있습니다.
+  dllRectangle.vcxproj -> D:\sample_opencv\OpenCVApp\buildx64\Debug\dllRectangled.dll

@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  Shape.cpp
+  dllmain.cpp
+  Triangle.cpp
+D:\sample_opencv\OpenCVApp\lib_triangle\Triangle.h(15,1): warning C4275: DLL 인터페이스가 아닌 class 'Shape'이(가) DLL 인터페이스 class 'Triangle'의 기본으로 사용되었습니다.
+D:\sample_opencv\OpenCVApp\OpenCVApp\shape.h(9,7): message : 'Shape' 선언을 참조하십시오.
+D:\sample_opencv\OpenCVApp\lib_triangle\Triangle.h(14,20): message : 'Triangle' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+     D:\sample_opencv\OpenCVApp\buildx64\Debug\lib_triangled.lib 라이브러리 및 D:\sample_opencv\OpenCVApp\buildx64\Debug\lib_triangled.exp 개체를 생성하고 있습니다.
+  lib_triangle.vcxproj -> D:\sample_opencv\OpenCVApp\buildx64\Debug\lib_triangled.dll
