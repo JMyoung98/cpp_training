@@ -1,41 +1,51 @@
 #pragma once
-#include"common.h"
+#include "common.h"
+
 class Calc
 {
 public:
-	Calc();
-	Calc(int a = 1, int b = 2, char sym = '+');
-	~Calc();
+	//생성자
+	Calc();//Ctor...default Ctor
+	//Calc(int a=1, int b=2, char sym=' ');
+	Calc(int a, int b, char sym);
+	//소멸자
+	~Calc();//Dtor
+
 	void Clear();
-	int Dosum();
-	int Domul();
-	int Dodiv();
-	int Dosub();
-	int Doresult();
-	int add(int scores[], int length);
-	float average(int scores[], int length);
-	int max(int scores[], int length);
-	int min(int scores[], int length);
-	void setValue(int num1, int num2, char sym);
-	int allsum(int start, int length);
-private:	//main함수 내에서 직접 사용 불가
-	int* pData = nullptr;
-	int number1;
-	int number2;
+	void SetValue(int num1, int num2, char sym);
+	int GetResult();
+	int DoSum();
+	int DoMul();
+	int DoSub();
+	int DoDiv();
+
+	int sum(const int* const pData, size_t length);
+	float avg(const int* const pData, size_t length);
+	int min(const int* const pData, size_t length);
+	int max(const int* const pData, size_t length);
+
+	int number1 = 0;
+private:
+	int* pData = nullptr;//new -> shared_ptr
+	//int number1=0;
+	int number2=0;
 	char symbol;
 	int result;
+	int a, b, sym;
 };
-/*Usage*/
+
+/*usage*/
 /*
-7.C++_class.cpp
+7.c++_class.cpp 만드세요
+ 
 #include "Calc.h"
-int main(){
-
+int main()
+{
 	Calc calc;
-	calc.setValue(1,2,'+');
-	calc.Dosum();
-	cout << "두수의 합은"<<calc.Doresult();
+	calc.SetValue(1,2,'+');
+	calc.DoSum();
+	cout<<"두수의 합은 " <<calc.GetResult()<<endl;
 }
+//console 창의 상태를 캡쳐하세요.
 
-// console 창의 상태를 캡쳐하세요
 */

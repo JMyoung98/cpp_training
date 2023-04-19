@@ -1,141 +1,151 @@
-﻿  11.c++_class_shape.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\Triangle.h(15,1): warning C4275: DLL 인터페이스가 아닌 class 'Shape'이(가) DLL 인터페이스 class 'Triangle'의 기본으로 사용되었습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape.h(9,7): message : 'Shape' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\Triangle.h(14,20): message : 'Triangle' 선언을 참조하십시오.
-  7.C++_class.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(7,3): error C2065: 'Calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(7,8): error C2146: 구문 오류: ';'이(가) 'calc' 식별자 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(7,8): error C3861: 'calc': 식별자를 찾을 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(12,38): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(13,3): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(14,38): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(15,3): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(16,38): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(17,3): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(18,38): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(19,41): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(20,18): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(22,19): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(23,18): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(24,16): error C2065: 'calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(29,3): error C2065: 'Calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(29,9): error C2065: 'pcalc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(29,21): error C2061: 구문 오류: 식별자 'Calc'
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(32,16): error C2065: 'pcalc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(34,7): error C2065: 'pcalc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(35,11): error C2065: 'pcalc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(35,16): error C2541: 'delete': 포인터가 아닌 개체를 삭제할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(36,4): error C2065: 'pcalc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,19): error C2065: 'Calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,8): error C2923: 'std::shared_ptr': 'Calc'은(는) '_Ty' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,19): message : 'Calc' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,52): error C2065: 'Calc': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,38): error C2672: 'std::make_shared': 일치하는 오버로드된 함수가 없습니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(2703,5): message : 'std::shared_ptr<_Ty> std::make_shared(_Types &&...)'일 수 있습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,52): message : 'std::make_shared': '_Ty'의 템플릿 인수가 잘못되었습니다. 형식이 필요합니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(41,31): error C2512: 'std::shared_ptr': 사용할 수 있는 적절한 기본 생성자가 없습니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1494,1): message : 'std::shared_ptr' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(44,16): error C2675: 단항 '->': 'std::shared_ptr'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1701,22): message : '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const'일 수 있습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(44,21): message : '_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const': '__formal'의 템플릿 인수를 추론할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\7.C++_class.cpp(44,23): error C2039: 'add': 'std::shared_ptr'의 멤버가 아닙니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1494,1): message : 'std::shared_ptr' 선언을 참조하십시오.
-  c++_class.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_class.cpp(1,1): warning C4828: 파일에 0x717 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
-  c++_class_phone.cpp
-  c++_memory.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_memory.cpp(35,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_memory.cpp(36,7): warning C4101: 'pa' :참조되지 않은 지역 변수입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_memory.cpp(35,16): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_memory.cpp(35,24): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_memory.cpp(36,19): warning C4101: 'pb' :참조되지 않은 지역 변수입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\c++_memory.cpp(36,29): warning C4101: 'pc' :참조되지 않은 지역 변수입니다.
-  c++_student_info.cpp
-  Calc.cpp
-  circle.cpp
-  employee.cpp
-  employexe.cpp
-  KPhone.cpp
-  Polygone.cpp
-  Rectangle.cpp
-  Shape.cpp
-  shape_dll_exe.cpp
-D:\sample_opencv\OpenCVApp\dll_circle\circle.h(15,1): warning C4275: DLL 인터페이스가 아닌 class 'Shape'이(가) DLL 인터페이스 class 'Circle'의 기본으로 사용되었습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape.h(9,7): message : 'Shape' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\dll_circle\circle.h(14,20): message : 'Circle' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape_dll_exe.cpp(20,23): error C2664: 'HMODULE LoadLibraryW(LPCWSTR)': 인수 1을(를) 'const char [16]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape_dll_exe.cpp(20,35): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+﻿  1.opencv_basic.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  11.c++_class_shape_exe.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\11.c++_class_shape_exe.cpp(3,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'circle.h': No such file or directory
+  12.c++_class_shape_dll_exe.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Lib_Triangle\Triangle.h(15,1): warning C4275: DLL 인터페이스가 아닌 class 'Shape'이(가) DLL 인터페이스 class 'Triangle'의 기본으로 사용되었습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\shape.h(9,7): message : 'Shape' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Lib_Triangle\Triangle.h(14,20): message : 'Triangle' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\12.c++_class_shape_dll_exe.cpp(21,23): error C2664: 'HMODULE LoadLibraryW(LPCWSTR)': 인수 1을(를) 'const char [18]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\12.c++_class_shape_dll_exe.cpp(21,35): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\libloaderapi.h(601,1): message : 'LoadLibraryW' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape_dll_exe.cpp(20,23): message : 인수 목록 '(const char [16])'을(를) 일치시키는 동안
-  studendscore1_0_exe.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,8): error C2039: 'map': 'std'의 멤버가 아닙니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(116,1): message : 'std' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,11): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,11): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,31): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,8): error C2039: 'map': 'std'의 멤버가 아닙니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(116,1): message : 'std' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,11): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,11): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,37): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
-  StudentScore.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\StudentScore.cpp(39,23): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  studentscore1_0.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,8): error C2039: 'map': 'std'의 멤버가 아닙니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(116,1): message : 'std' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,11): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,11): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(25,31): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,8): error C2039: 'map': 'std'의 멤버가 아닙니다.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm(116,1): message : 'std' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,11): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,11): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(26,37): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(16,8): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(48,12): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(48,38): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(53,8): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(54,8): error C2039: 'mTable_store': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(65,25): error C2039: 'mTable_store': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(66,8): error C3536: 'iter': 초기화되기 전에 사용할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(66,17): error C2039: 'mTable_store': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(94,25): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(95,8): error C3536: 'iter': 초기화되기 전에 사용할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(95,17): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(115,31): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(130,25): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(131,8): error C3536: 'iter': 초기화되기 전에 사용할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(131,17): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(147,25): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(148,8): error C3536: 'iter': 초기화되기 전에 사용할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.cpp(148,17): error C2039: 'mTable': 'studentscore1_0::sutudentinfo'의 멤버가 아닙니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore1_0.h(20,17): message : 'studentscore1_0::sutudentinfo' 선언을 참조하십시오.
-  studentscore_as.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(34,19): error C2760: 구문 오류: 여기서 'uchar'은(는) 예상치 못한 오류였습니다. 예상된 오류는 '형식 지정자'였습니다
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(34,25): error C2065: 'c': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(34,26): error C2059: 구문 오류: ')'
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(34,28): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(34,44): error C2065: 'c': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(34,49): error C2059: 구문 오류: ')'
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(37,3): error C3409: 빈 특성 블록을 사용할 수 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(37,3): error C2059: 구문 오류: '<default int type>'
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(37,14): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(38,18): error C2065: 'c': 선언되지 않은 식별자입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\studentscore_as.cpp(72,22): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  studentscore__as.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\12.c++_class_shape_dll_exe.cpp(21,23): message : 인수 목록 '(const char [18])'을(를) 일치시키는 동안
+  9.c++_class_student_exe.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  2.c++_logic.cpp
+  2.opencv_exe_threshold.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  3.opencv_exe_findcontour.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  3.opencv_DIP_histogram.cpp
+  4.c++_memory.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.c++_memory.cpp(46,7): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.c++_memory.cpp(46,17): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.c++_memory.cpp(47,30): warning C4101: 'pC' :참조되지 않은 지역 변수입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.c++_memory.cpp(47,8): warning C4101: 'pA' :참조되지 않은 지역 변수입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.c++_memory.cpp(46,25): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.c++_memory.cpp(47,20): warning C4101: 'pB' :참조되지 않은 지역 변수입니다.
+  4.opencv_color_convert.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.opencv_color_convert.cpp(43,45): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\4.opencv_color_convert.cpp(49,21): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  5.c++_struct.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\5.c++_struct.cpp(40,28): warning C4244: 'return': 'size_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  6.c++_class.cpp
+  7.c++_class.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  8.c++_class_exam_phone.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  8.c++_class_student.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  10.c++_class_derived_exe.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Calc.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\Calc.cpp(110,38): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\Calc.cpp(111,9): warning C4244: 'return': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  circle.cpp
+c1xx : fatal  error C1083: 소스 파일을 열 수 없습니다. 'circle.cpp': No such file or directory
+  Employee.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  KPhone.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   컴파일하고 있습니다...
-  Triangle.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\Triangle.cpp(1,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'pch.h': No such file or directory
+  Polygone.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Rectangle.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  shape.cpp
+  StudentScore_rev1.0.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\core.hpp(1747,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\thirdparty\opencv_470\build\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\StudentScore_rev1.0.cpp(103,18): warning C4244: 'return': 'unsigned __int64'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  week1_quiz_calc_using_namesapce.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(12,14): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(12,6): error C2146: 구문 오류: ';'이(가) 'Program' 식별자 앞에 없습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(23,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(23,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,7): error C2039: 'cout': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,12): error C2065: 'cout': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,34): error C2039: 'cin': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,38): error C2065: 'cin': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,41): error C2825: 'Calc': '::'가 뒤에 나오면 클래스 또는 네임스페이스여야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,47): error C2510: 'Calc': '::' 왼쪽은 클래스/구조체/공용 구조체이어야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(174,48): error C2065: 'a': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,7): error C2039: 'cout': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,12): error C2065: 'cout': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,34): error C2039: 'cin': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,38): error C2065: 'cin': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,41): error C2825: 'Calc': '::'가 뒤에 나오면 클래스 또는 네임스페이스여야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,47): error C2510: 'Calc': '::' 왼쪽은 클래스/구조체/공용 구조체이어야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(175,48): error C2065: 'b': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,7): error C2039: 'cout': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,12): error C2065: 'cout': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,34): error C2039: 'cin': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,38): error C2065: 'cin': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,41): error C2825: 'Calc': '::'가 뒤에 나오면 클래스 또는 네임스페이스여야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,47): error C2510: 'Calc': '::' 왼쪽은 클래스/구조체/공용 구조체이어야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(176,53): error C2065: 'symbol': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(177,7): error C2039: 'cout': 'std'의 멤버가 아닙니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\predefined C++ types (compiler internal)(342,11): message : 'std' 선언을 참조하십시오.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(177,12): error C2065: 'cout': 선언되지 않은 식별자입니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(177,30): error C2825: 'Calc': '::'가 뒤에 나오면 클래스 또는 네임스페이스여야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(177,36): error C2510: 'Calc': '::' 왼쪽은 클래스/구조체/공용 구조체이어야 합니다.
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_quiz_calc_using_namesapce.cpp(177,42): error C3861: 'result': 식별자를 찾을 수 없습니다.
+  week1_summary_io.cpp
+\\10.10.141.253\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\week1_summary_io.cpp(38,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  week1_summary_namespace.cpp

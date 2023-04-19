@@ -1,76 +1,92 @@
 #include "StudentScore.h"
+
 StudentScore::StudentScore()
 {
-	std::cout << "StudentScore::Ctor" << std::endl;
+
 }
 
 StudentScore::~StudentScore()
 {
-	std::cout << "StudentScore::Dtor" << std::endl;
 }
 
-StudentInfo StudentScore::SetSubjectScore(string subject[], int score[])
+void StudentScore::SetStudentName(string Name)
 {
-	for (int i = 0; i < 6; i++) {
-		_stStudentInfo.sub[i] = subject[i];
-		_stStudentInfo.score[i] = score[i];
+	stStudentInfo.name = Name;
+
+	stStudentInfo.mTable.clear();
+}
+
+void StudentScore::SetSubjectScore(string subject, int score)
+{
+	if (stStudentInfo.mTable.find(subject) != stStudentInfo.mTable.end()) {
+		cout << "same subject found" << endl;
+		return;
 	}
-	return _stStudentInfo;
-}
-
-string StudentScore::SetStudentName(string name)
-{
-	_stStudentInfo.name = name;
-	return _stStudentInfo.name;
-}
-
-int StudentScore::getSum()
-{
-	int temp = 0;
-	for (int i = 0; i < 6; i++) {
-		temp += _stStudentInfo.score[i];
+	else {
+		stStudentInfo.mTable.insert({ subject, score });
 	}
-	return temp;
+
 }
 
-int StudentScore::getAvg()
+void StudentScore::DoCalc()
 {
-	_stStudentInfo.avg = static_cast<float>(getSum())/6;
-	return _stStudentInfo.avg;
-}
+	//È«±æµ¿ = ±¹¾î:90, ¿µ¾î : 90, ¼öÇÐ : 98, ¹Ì¼ú : 88, À½¾Ç : 94, ¿ª»ç : 99ÃÑÇÕ = ? ? , Æò±Õ = ? ? , ÃÖ¼Ò = ? ? , ÃÖ´ë = ? ?
+	if (stStudentInfo.mTable.size() > 0)
+	{
 
-int StudentScore::getmin()
-{
-	for (int i = 0; i < 6; i++) {
-		if (_stStudentInfo.score[i] < _stStudentInfo.min) _stStudentInfo.min = _stStudentInfo.score[i];
+		cout << stStudentInfo.name << " => ";
+		for (auto iter = stStudentInfo.mTable.begin(); iter != stStudentInfo.mTable.end(); iter++)
+		{
+			cout << iter->first << " : " << iter->second << "  ";
+		}
+
+		cout << "| ÃÑÇÕ : " << GetSum() << "  "
+			<< "| Æò±Õ : " << GetAvg() << "  "
+			<< "| ÃÖ¼Ò : " << GetMin() << "  "
+			<< "| ÃÖ´ë : " << GetMax()
+			<< endl;
 	}
-	return _stStudentInfo.min;
+
 }
 
-int StudentScore::getmax()
+int StudentScore::GetSum()
 {
-	for (int i = 0; i < 6; i++) {
-		if (_stStudentInfo.score[i] > _stStudentInfo.max) _stStudentInfo.max = _stStudentInfo.score[i];
+	vector<int> vScores;
+	for (auto iter = stStudentInfo.mTable.begin(); iter != stStudentInfo.mTable.end(); iter++)
+	{
+		vScores.push_back(iter->second);
 	}
-	return _stStudentInfo.max;
-}
-
-int StudentScore::Docalc()
-{
-	cout << _stStudentInfo.name << " - ";
-	for (int i = 0; i < 6; i++) {
-		cout << _stStudentInfo.sub[i] << " : " << _stStudentInfo.score[i];
+	int sum = 0;
+	for (auto iter = vScores.begin(); iter != vScores.end(); iter++)
+	{
+		sum += *iter;
 	}
-	cout << endl;
-	cout << "ÃÑÇÕ = " << getSum() << "Æò±Õ = " << getAvg() << "ÃÖ´ë°ª = " << getmax() << "ÃÖ¼Ú°ª = " << getmin() << endl;;
-	return 0;
+	return sum;
 }
 
-void StudentScore::struct_clear()
+float StudentScore::GetAvg()
 {
-	_stStudentInfo.name="";
-	_stStudentInfo.sum = 0;
-	_stStudentInfo.avg = 0;
-	_stStudentInfo.min = 101;
-	_stStudentInfo.max = 0;
+	return GetSum() / stStudentInfo.mTable.size();
+}
+
+int StudentScore::GetMin()
+{
+	vector<int> vScores;
+	for (auto iter = stStudentInfo.mTable.begin(); iter != stStudentInfo.mTable.end(); iter++)
+	{
+		vScores.push_back(iter->second);
+	}
+	std::sort(vScores.begin(), vScores.end());
+	return vScores[0];
+}
+
+int StudentScore::GetMax()
+{
+	vector<int> vScores;
+	for (auto iter = stStudentInfo.mTable.begin(); iter != stStudentInfo.mTable.end(); iter++)
+	{
+		vScores.push_back(iter->second);
+	}
+	std::sort(vScores.begin(), vScores.end());
+	return vScores[vScores.size() - 1];
 }

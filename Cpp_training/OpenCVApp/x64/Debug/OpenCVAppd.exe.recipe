@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\sample_opencv\OpenCVApp\buildx64\Debug\OpenCVAppd.exe</FullPath>
+      <FullPath>D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Build\x64\OpenCVAppd.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

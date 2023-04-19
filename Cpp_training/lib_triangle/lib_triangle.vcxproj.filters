@@ -13,8 +13,8 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="interface">
-      <UniqueIdentifier>{776d05e6-27b1-4712-a6cb-3d9a1025222f}</UniqueIdentifier>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{ba2ea670-36d6-4c85-a1f7-897d0c47390a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,8 +24,8 @@
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\OpenCVApp\Shape.h">
-      <Filter>interface</Filter>
+    <ClInclude Include="..\OpenCVApp\shape.h">
+      <Filter>Interface</Filter>
     </ClInclude>
     <ClInclude Include="Triangle.h">
       <Filter>헤더 파일</Filter>
@@ -38,8 +38,8 @@
     <ClCompile Include="pch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\OpenCVApp\Shape.cpp">
-      <Filter>interface</Filter>
+    <ClCompile Include="..\OpenCVApp\shape.cpp">
+      <Filter>Interface</Filter>
     </ClCompile>
     <ClCompile Include="Triangle.cpp">
       <Filter>소스 파일</Filter>

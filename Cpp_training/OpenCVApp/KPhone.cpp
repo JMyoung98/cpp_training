@@ -1,96 +1,90 @@
 #include "KPhone.h"
-#include "common.h"
 
 KPhone::KPhone()
-	:strNumber(""),
-	isConnected(true)	// true : 전화중 x
-						// false : 전화중
+	:strNumber("000-0000-0000")
+	, isConnected(false)
 {
-	std::cout << "KPHONE::Ctor" << std::endl;
+	cout << "KPhone::Ctor" << endl;
 }
 
 KPhone::~KPhone()
 {
-	std::cout << "KPHONE::Dtor" << std::endl;
+	cout << "KPhone:Dtor" << endl;
 }
 
-std::string KPhone::Send()
+int KPhone::Send()
 {
-	
-	/*if (isConnected ==true)
+	//check number
+	if (strNumber == "000-0000-0000")
 	{
-		return strNumber;
+		cout << "wrong number" << endl;
+		return -1;
 	}
-	else {
-		return "전화중";
-	}*/
-	if (strNumber == "010-1111-1111") {
-		std::cout << "wrong number" << std::endl;
-		
+
+	//check on the phone
+	if (isConnected == true)
+	{
+		cout << "on the phone" << endl;
+		return -1;
 	}
-	if (isConnected == true) {
-		std::cout << "On the phone" << std::endl;
-		
-	}
-	std::cout << "calling" << std::endl;
-	std::cout << "linked" << std::endl;
+
+	cout << "calling" << endl;
+
+	cout << "linked" << endl;
+
 	isConnected = true;
 
-	std::cout << "communication start" << std::endl;
-
+	cout << "communication start" << endl;
+	//wait(5000);
 	////Cancel
-	//std::cout << "communication finish" << std::endl;
+	//cout << "communication finish" << endl;
 	//isConnected = false;
 
-	return "";
+	return 0;
 }
 
-int KPhone::Receiver()
+int KPhone::Cancel()
+{
+	cout << "cancel button activated" << endl;
+
+	//Cancel
+	cout << "communication finish" << endl;
+	isConnected = false;
+	return 0;
+}
+
+int KPhone::Receive()
 {
 	if (isConnected == true)
 	{
-		std::cout << "on the phone" << std::endl;
-		
+		cout << "on the phone" << endl;
+		return -1;
 	}
 
-	std::cout << "linked" << std::endl;
+	cout << "linked" << endl;
 
 	isConnected = true;
 
-	std::cout << "communication start" << std::endl;
+	cout << "communication start" << endl;
 
-	//Cancel
-	//std::cout << "communication finish" << std::endl;
+	////Cancel
+	//cout << "communication finish" << endl;
 	//isConnected = false;
 	return 0;
-	//isConnected = !isConnected;
-	//return isConnected;
 }
 
-std::string KPhone::Number(std::string num)
+int KPhone::Numbers(string _strNumber)
 {
-	strNumber = num;
-	return strNumber;
+	strNumber = _strNumber;
+	return 0;
 }
 
 int KPhone::Numbers(int* pAudioData, int length)
 {
 	//pAudioData 분석
 	//음석인식 알고리즘 넣어줘
-	std::string number = "010-1234-5678";// DoAnalysisAudioData(pAudioData, length);
+	string number = "010-1234-5678";// DoAnalysisAudioData(pAudioData, length);
 	strNumber = number;
 	//결과로 문자를 반환
 	return 0;
 }
-
-
-int KPhone::Cancel()
-{
-	std::cout << "cancel button activated" << std::endl;
-
-	//Cancel
-	std::cout << "communication finish" << std::endl;
-	isConnected = false;
-	return 0;
-}
-

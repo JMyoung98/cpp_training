@@ -1,0 +1,27 @@
+System Log :: Start()
+[1] area = 2.000 perimeter = 9.657 circularity = 0.270
+[2] area = 2.000 perimeter = 21.657 circularity = 0.054
+[3] area = 13.000 perimeter = 23.314 circularity = 0.301
+[4] area = 4856.500 perimeter = 360.894 circularity = 0.469
+[5] area = 22136.500 perimeter = 621.144 circularity = 0.721
+[6] area = 32.500 perimeter = 31.899 circularity = 0.401
+[7] area = 3283.500 perimeter = 290.267 circularity = 0.490
+[8] area = 7914.500 perimeter = 333.463 circularity = 0.894
+[9] area = 8.000 perimeter = 23.657 circularity = 0.180
+[10] area = 9514.000 perimeter = 399.657 circularity = 0.749
+[11] area = 2.000 perimeter = 21.657 circularity = 0.054
+System Log :: Start()
+[1] area = 17.500 perimeter = 21.071 circularity = 0.495
+[2] area = 4866.000 perimeter = 332.995 circularity = 0.551
+[3] area = 22090.500 perimeter = 621.144 circularity = 0.719
+[4] area = 3189.000 perimeter = 277.196 circularity = 0.522
+[5] area = 7876.500 perimeter = 334.635 circularity = 0.884
+[6] area = 9444.000 perimeter = 397.314 circularity = 0.752
+System Log :: Start()
+[1] area = 10.500 perimeter = 13.071 circularity = 0.772
+[2] area = 4974.000 perimeter = 343.480 circularity = 0.530
+[3] area = 22199.000 perimeter = 620.558 circularity = 0.724
+[4] area = 3229.000 perimeter = 277.338 circularity = 0.528
+[5] area = 7896.500 perimeter = 333.463 circularity = 0.892
+[6] area = 9504.000 perimeter = 397.314 circularity = 0.757
+System Log :: Start()

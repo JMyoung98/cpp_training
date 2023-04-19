@@ -1,43 +1,45 @@
 #pragma once
-#include"common.h"
-class CDate {
-public:
-	CDate() { year = month = day = 0; };
-	CDate(int _year, int _month, int _day) 
-	{
-		CDate::year = _year, CDate::month = _month, CDate::day = _day;
-	};
+#include "common.h"
+class CDate
+{
+public :
+	CDate() { year = month = day = 0; }
+	CDate(int _year, int _month, int _day)
+	{ year = _year, month = _month, day = _day; }
+	~CDate() {}
 	int GetYear() { return year; }
 	int GetMonth() { return month; }
 	int GetDay() { return day; }
-	~CDate() {};
 private:
-	int year, day, month;
-};
-class employee
-{
-public:
-	employee();
-	employee(string name, string address, string tellno, CDate joindate);
-	void displayEmployee();
-	~employee();
-	
-private:
-	string m_name;
-	string m_address;
-	string m_tellno;
-	CDate m_joindate;
+	int year, month, day;
 };
 
-class regularEmployee:public
-	employee
+class Employee
 {
 public:
-	regularEmployee();
-	regularEmployee(string name, string address, string tellno, CDate joindate, double salary);
-	~regularEmployee();
-	void paycheck();
+	Employee();
+	Employee(string name, string address, 
+			 string phoneNum, CDate joinDate);
+	void DisplayEmployee();
+	void DoWork();
+
+	~Employee();
+protected:
 private:
-	double m_salary;
+	string name, address, phoneNum;
+	CDate joinDate;
+};
+
+class RegularEmployee : public Employee
+{
+public:
+	RegularEmployee();
+	RegularEmployee(string name, string address, 
+				    string phoneNum, CDate joinDate, int salary);
+	~RegularEmployee();
+	void DoWork();
+private:
+	
+	int salary;
 };
 

@@ -1,14 +1,16 @@
 #include "Polygone.h"
+
 Polygone::Polygone()
 {
-	cout << "Polygone::Ctor" << endl;
+	cout << "Polygone Ctor" << endl;
 }
 
 Polygone::~Polygone()
 {
-	cout << "Polygone::Dtor" << endl;
+	cout << "Polygone Dtor" << endl;
 }
+
 void Polygone::ShowShapeInfo()
 {
-	cout << "Show Polygone " << endl << endl;
+	cout << "Show Polygone" << endl;
 }

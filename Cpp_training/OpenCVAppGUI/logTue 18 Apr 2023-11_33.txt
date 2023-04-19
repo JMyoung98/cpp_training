@@ -1,0 +1,11 @@
+System Log :: Start()
+[1] area = 2756.000 perimeter = 259.539 circularity = 0.514
+[2] area = 17994.500 perimeter = 566.174 circularity = 0.705
+[3] area = 1796.000 perimeter = 216.627 circularity = 0.481
+[4] area = 5694.000 perimeter = 284.392 circularity = 0.885
+[5] area = 7280.000 perimeter = 354.000 circularity = 0.730
+Final>>[1] area = 2756.000 perimeter = 259.539 circularity = 0.514
+Final>>[2] area = 17994.500 perimeter = 566.174 circularity = 0.705
+Final>>[3] area = 1796.000 perimeter = 216.627 circularity = 0.481
+Final>>[4] area = 5694.000 perimeter = 284.392 circularity = 0.885
+Final>>[5] area = 7280.000 perimeter = 354.000 circularity = 0.730

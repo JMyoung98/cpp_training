@@ -1,13 +1,13 @@
-#include "Shape.h"
+#include "shape.h"
 
 Shape::Shape()
 {
-	cout << "shape::Ctor" << endl;
+	cout << "Shape Ctor" << endl;
 }
 
 Shape::~Shape()
 {
-	cout << "shape::Dtor" << endl;
+	cout << "Shape Dtor" << endl;
 }
 
 void Shape::SetVertexCnt(int points)
@@ -17,11 +17,10 @@ void Shape::SetVertexCnt(int points)
 
 int Shape::GetVertexCnt()
 {
-	cout << _points << endl;
-	return 0;
+	return _points;
 }
 
 void Shape::ShowShapeInfo()
 {
-	cout << "ShowShape" << endl << endl;
+	cout << "Show Shape" << endl;
 }

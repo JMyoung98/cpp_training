@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  shape.cpp
+  circle.cpp
+D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Lib_Circle\circle.h(18,1): warning C4275: DLL 인터페이스가 아닌 class 'Shape'이(가) DLL 인터페이스 class 'Circle'의 기본으로 사용되었습니다.
+D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\OpenCVApp\shape.h(9,7): message : 'Shape' 선언을 참조하십시오.
+D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Lib_Circle\circle.h(17,20): message : 'Circle' 선언을 참조하십시오.
+  dllmain.cpp
+  코드를 생성하고 있습니다...
+     D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Build\x64\Lib_Circled.lib 라이브러리 및 D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Build\x64\Lib_Circled.exp 개체를 생성하고 있습니다.
+  Lib_Circle.vcxproj -> D:\23 자율형 공유폴더\C++_ComputerVision_MachineLearning_Project\sample_opencv_platform\OpenCVApp\Build\x64\Lib_Circled.dll

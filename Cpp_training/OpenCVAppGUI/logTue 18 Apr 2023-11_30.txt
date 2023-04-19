@@ -1,0 +1,16 @@
+[1] area = 3.500 perimeter = 7.414 circularity = 0.800
+[2] area = 5.000 perimeter = 14.828 circularity = 0.286
+[3] area = 5.000 perimeter = 14.828 circularity = 0.286
+[4] area = 5.000 perimeter = 14.828 circularity = 0.286
+[5] area = 5.000 perimeter = 14.828 circularity = 0.286
+[6] area = 4880.500 perimeter = 364.894 circularity = 0.461
+[7] area = 22256.000 perimeter = 619.730 circularity = 0.728
+[8] area = 5.000 perimeter = 14.828 circularity = 0.286
+[9] area = 38.500 perimeter = 27.899 circularity = 0.622
+[10] area = 3250.000 perimeter = 291.196 circularity = 0.482
+[11] area = 7906.500 perimeter = 333.463 circularity = 0.894
+[12] area = 5.000 perimeter = 14.828 circularity = 0.286
+[13] area = 9537.000 perimeter = 400.828 circularity = 0.746
+[14] area = 5.000 perimeter = 14.828 circularity = 0.286
+[15] area = 5.000 perimeter = 14.828 circularity = 0.286
+System Log :: Start()

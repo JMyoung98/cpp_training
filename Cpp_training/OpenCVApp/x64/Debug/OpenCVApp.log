@@ -1,4 +1,15 @@
-﻿  shape_test.cpp
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape_test.cpp(58,17): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
-D:\sample_opencv\OpenCVApp\OpenCVApp\shape_test.cpp(58,25): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
-  OpenCVApp.vcxproj -> D:\sample_opencv\OpenCVApp\buildx64\Debug\OpenCVAppd.exe
+﻿  13.c++_final.cpp
+  Calc.cpp
+D:\sample_opencv\OpenCVAppGUI\OpenCVApp\common.h(7,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'opencv2/opencv.hpp': No such file or directory
+  Employee.cpp
+D:\sample_opencv\OpenCVAppGUI\OpenCVApp\common.h(7,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'opencv2/opencv.hpp': No such file or directory
+  KPhone.cpp
+D:\sample_opencv\OpenCVAppGUI\OpenCVApp\common.h(7,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'opencv2/opencv.hpp': No such file or directory
+  Polygone.cpp
+D:\sample_opencv\OpenCVAppGUI\OpenCVApp\common.h(7,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'opencv2/opencv.hpp': No such file or directory
+  Rectangle.cpp
+D:\sample_opencv\OpenCVAppGUI\OpenCVApp\common.h(7,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'opencv2/opencv.hpp': No such file or directory
+  shape.cpp
+  StudentScore_rev1.0.cpp
+D:\sample_opencv\OpenCVAppGUI\OpenCVApp\common.h(7,10): fatal  error C1083: 포함 파일을 열 수 없습니다. 'opencv2/opencv.hpp': No such file or directory
+  코드를 생성하고 있습니다...

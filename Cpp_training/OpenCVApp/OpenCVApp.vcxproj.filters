@@ -13,146 +13,144 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="class.Calc">
-      <UniqueIdentifier>{cd8f7b51-6681-4163-b959-9e524d864944}</UniqueIdentifier>
+    <Filter Include="class_calc">
+      <UniqueIdentifier>{613b434f-f83f-4ce3-b97f-63fa4e4268e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="class.Kphone">
-      <UniqueIdentifier>{8be61280-28dc-4275-af3d-6ff2774e4833}</UniqueIdentifier>
+    <Filter Include="phone">
+      <UniqueIdentifier>{1c61d92b-aa03-4736-ab3d-74058eb463c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="class.StudentScore">
-      <UniqueIdentifier>{af54360f-b566-4921-8dbd-f8f806a19e92}</UniqueIdentifier>
+    <Filter Include="student">
+      <UniqueIdentifier>{6c9ecf1d-a935-4715-ab02-8d1003392ca5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="class.employee">
-      <UniqueIdentifier>{d3c46ccc-5f6d-41a8-a8fe-b8f5de086e33}</UniqueIdentifier>
+    <Filter Include="employee">
+      <UniqueIdentifier>{08867633-4678-401b-b20c-30ef72812794}</UniqueIdentifier>
     </Filter>
-    <Filter Include="class.shape">
-      <UniqueIdentifier>{1f07a5cd-97dd-4866-8dbc-c191a90c9c4b}</UniqueIdentifier>
+    <Filter Include="shape">
+      <UniqueIdentifier>{88d5d413-0322-4ffe-831e-a60e8084b2c1}</UniqueIdentifier>
     </Filter>
     <Filter Include="shape_dll">
-      <UniqueIdentifier>{2a7d31d5-2192-43e7-8c70-50825aa15032}</UniqueIdentifier>
+      <UniqueIdentifier>{f29ca926-a49a-4abf-9041-27428d73b38b}</UniqueIdentifier>
     </Filter>
     <Filter Include="final">
-      <UniqueIdentifier>{f7e84e97-b4ec-4a39-b675-430754d91699}</UniqueIdentifier>
+      <UniqueIdentifier>{8bf16ec4-256c-47a5-92da-5a21061fb3b2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.opencv_sample_c++.cpp">
+    <ClCompile Include="1.opencv_basic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2.opnecv_exe.cpp">
+    <ClCompile Include="1.c++_basic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1_2.opencv_sample_c++.cpp">
+    <ClCompile Include="2.c++_logic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2_1.opnecv_exe_threshold.cpp">
+    <ClCompile Include="2.opencv_exe_threshold.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="4.opencv_exe_findcontour.cpp">
+    <ClCompile Include="3.opencv_exe_findcontour.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week1_summary_example.cpp">
+    <ClCompile Include="week1_summary_io.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week1_quiz_namespace.cpp">
+    <ClCompile Include="week1_summary_namespace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DIP_histogram.cpp">
+    <ClCompile Include="week1_quiz_calc_using_namesapce.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="c++_memory.cpp">
+    <ClCompile Include="3.opencv_DIP_histogram.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="opencv_color2gray.cpp">
+    <ClCompile Include="4.c++_memory.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="opencv_gray2color.cpp">
+    <ClCompile Include="4.opencv_color_convert.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="struct_class.cpp">
+    <ClCompile Include="5.c++_struct.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="c++_class.cpp">
+    <ClCompile Include="6.c++_class.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Calc.cpp">
-      <Filter>class.Calc</Filter>
+      <Filter>class_calc</Filter>
     </ClCompile>
-    <ClCompile Include="7.C++_class.cpp">
+    <ClCompile Include="7.c++_class.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="KPhone.cpp">
-      <Filter>class.Kphone</Filter>
+      <Filter>phone</Filter>
     </ClCompile>
-    <ClCompile Include="c++_class_phone.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="8.c++_class_exam_phone.cpp">
+      <Filter>phone</Filter>
     </ClCompile>
-    <ClCompile Include="StudentScore.cpp">
-      <Filter>class.StudentScore</Filter>
+    <ClCompile Include="8.c++_class_student.cpp">
+      <Filter>student</Filter>
     </ClCompile>
-    <ClCompile Include="c++_student_info.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="StudentScore_rev1.0.cpp">
+      <Filter>student</Filter>
     </ClCompile>
-    <ClCompile Include="studentscore_as.cpp">
-      <Filter>class.StudentScore</Filter>
+    <ClCompile Include="Employee.cpp">
+      <Filter>employee</Filter>
     </ClCompile>
-    <ClCompile Include="studentscore__as.cpp">
-      <Filter>class.StudentScore</Filter>
+    <ClCompile Include="10.c++_class_derived_exe.cpp">
+      <Filter>employee</Filter>
     </ClCompile>
-    <ClCompile Include="studentscore1_0.cpp">
-      <Filter>class.StudentScore</Filter>
+    <ClCompile Include="9.c++_class_student_exe.cpp">
+      <Filter>phone</Filter>
     </ClCompile>
-    <ClCompile Include="studendscore1_0_exe.cpp">
-      <Filter>class.StudentScore</Filter>
+    <ClCompile Include="11.c++_class_shape_exe.cpp">
+      <Filter>shape</Filter>
     </ClCompile>
-    <ClCompile Include="employee.cpp">
-      <Filter>class.employee</Filter>
+    <ClCompile Include="shape.cpp">
+      <Filter>shape</Filter>
     </ClCompile>
-    <ClCompile Include="employexe.cpp">
-      <Filter>class.employee</Filter>
+    <ClCompile Include="circle.cpp">
+      <Filter>shape</Filter>
     </ClCompile>
-    <ClCompile Include="11.c++_class_shape.cpp">
-      <Filter>class.shape</Filter>
+    <ClCompile Include="Polygone.cpp">
+      <Filter>shape</Filter>
     </ClCompile>
-    <ClCompile Include="shape_dll_exe.cpp">
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>shape</Filter>
+    </ClCompile>
+    <ClCompile Include="12.c++_class_shape_dll_exe.cpp">
       <Filter>shape_dll</Filter>
     </ClCompile>
-    <ClCompile Include="Shape.cpp">
-      <Filter>class.shape</Filter>
-    </ClCompile>
-    <ClCompile Include="shape_test.cpp">
+    <ClCompile Include="13.c++_final.cpp">
       <Filter>final</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Calc.h">
-      <Filter>class.Calc</Filter>
-    </ClInclude>
-    <ClInclude Include="KPhone.h">
-      <Filter>class.Kphone</Filter>
-    </ClInclude>
-    <ClInclude Include="StudentScore.h">
-      <Filter>class.StudentScore</Filter>
-    </ClInclude>
-    <ClInclude Include="studentscore_as.h">
-      <Filter>class.StudentScore</Filter>
-    </ClInclude>
-    <ClInclude Include="studentscore1_0.h">
-      <Filter>class.StudentScore</Filter>
-    </ClInclude>
-    <ClInclude Include="employee.h">
-      <Filter>class.employee</Filter>
+      <Filter>class_calc</Filter>
     </ClInclude>
     <ClInclude Include="common.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>class_calc</Filter>
     </ClInclude>
-    <ClInclude Include="Shape.h">
-      <Filter>class.shape</Filter>
+    <ClInclude Include="KPhone.h">
+      <Filter>phone</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="OpenCVApp.rc">
-      <Filter>리소스 파일</Filter>
-    </ResourceCompile>
+    <ClInclude Include="StudentScore_rev1.0.h">
+      <Filter>student</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>employee</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>shape</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygone.h">
+      <Filter>shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>shape</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
